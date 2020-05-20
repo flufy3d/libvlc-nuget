@@ -24,8 +24,8 @@ that you can add in your .NET project so that it gets copied into the output dir
 * docker run -it -v //host_mnt/$(pwd)://build --name nuget nuget_image bash
 * nuget pack "VideoLAN.LibVLC.UWP".nuspec -Version "1.0.0"
 * //Package Manager Console in Visual Studio
-* Install-Package c:\temp\packages\jQuery.1.10.2.nupkg
-* Install-Package https://globalcdn.nuget.org/packages/microsoft.aspnet.mvc.5.2.3.nupkg
+* Install-Package c:\temp\packages\VideoLAN.LibVLC.UWP.1.0.0.nupkg
+* Install-Package https://file.bitsea.co/nuget/VideoLAN.LibVLC.UWP.1.0.0.nupkg
 
 # What is libvlc?
 
