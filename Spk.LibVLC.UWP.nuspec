@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Spk.LibVLC.UWP</id>
+    <title>Spk.LibVLC.UWP</title>
+    <version>3.2.0</version>
+    <authors>Spk</authors>
+    <owners>Spk</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>LibVLC is a modular multimedia framework</summary>
+    <description>LibVLC is a modular multimedia framework that can render video and output audio as well as encode and stream. As it is native code, you will need to use a wrapper library such as LibVLCSharp to use it from .NET.
+    
+Use this LibVLC build for Windows Universal projects (UAP) on Windows 10 Desktop, Mobile and Xbox.
+    </description>
+    <tags>libvlc;vlc;Spk;native;c/c++;video;audio;player;media;mediaplayer;codec;ffmpeg;xamarin;graphics;ios;android;linux;windows;macos;cross-platform</tags>
+    <projectUrl>https://code.Spk.org/Spk/libvlc-nuget</projectUrl>
+    <license type="expression">LGPL-2.1-or-later</license>
+    <iconUrl>https://raw.githubusercontent.com/mfkl/libvlc-nuget/master/icon.png</iconUrl>
+    <releaseNotes>https://code.Spk.org/Spk/vlc/blob/master/NEWS</releaseNotes>
+  </metadata>
+  <files>
+    <file src="build\Spk.LibVLC.UWP.targets" target="build\Spk.LibVLC.UWP.targets"/>
+    <file src="build\win10-x86\native\**" target="build\win10-x86"/>
+    <file src="build\win10-x64\native\**" target="build\win10-x64"/>
+    <file src="build\win10-arm\native\**" target="build\win10-arm"/>
+    <file src="build\win10-arm64\native\**" target="build\win10-arm64"/>
+  </files>
+</package>

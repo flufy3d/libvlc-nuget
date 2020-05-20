@@ -14,7 +14,7 @@ cd /root/build
 7z x build/vlc-x86_64*.7z -obuild/win10-x64/native
 
 version=1.0.0
-packageName="VideoLAN.LibVLC.UWP"
+packageName="Spk.LibVLC.UWP"
 
 nuget pack "$packageName".nuspec -Version "$version"
 
