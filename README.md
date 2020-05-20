@@ -19,6 +19,12 @@ that you can add in your .NET project so that it gets copied into the output dir
   - [Unity3D](#Unity3D)
 - [Roadmap](#roadmap)
 
+# Tips
+* docker build -t nuget_image .
+* docker run -it -v //host_mnt/$(pwd)://build --name nuget nuget_image bash
+* nuget pack "VideoLAN.LibVLC.UWP".nuspec -Version "1.0.0"
+
+
 # What is libvlc?
 
 `libvlc` is the multimedia framework powering the VLC applications. It is fully opensource, so other apps use it too.
